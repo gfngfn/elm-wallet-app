@@ -1,8 +1,4 @@
-## Preliminaries
-
-### Installing Elm
-
-
+# Example App
 
 ## How to build and run
 
