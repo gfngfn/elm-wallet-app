@@ -23,3 +23,20 @@ $ elm make src/Main.elm --optimize --output=public/js/main.js
 ```
 
 and open `public/index.html`.
+
+
+### Run tests
+
+Install `elm-test` via `npm`:
+
+```console
+$ npm install elm-test
+```
+
+and then invoke:
+
+```console
+$ npx elm-test
+```
+
+(or just invoke `$ elm-test` if you set appropriate `PATH` to access the executable file)
