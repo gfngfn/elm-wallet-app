@@ -23,3 +23,14 @@ jobs:
 
       - name: Compile Elm sources
         run: elm make src/Main.elm --optimize --output=public/js/main.js
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '14'
+
+      - name: Install elm-test
+        run: npm install elm-test
+
+      - name: Run tests
+        run: npx elm-test
